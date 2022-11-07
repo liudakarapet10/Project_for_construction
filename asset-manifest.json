@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Project_for_construction/static/css/main.06a14047.css",
+    "main.js": "/Project_for_construction/static/js/main.bad4c244.js",
+    "static/js/787.85a27ca2.chunk.js": "/Project_for_construction/static/js/787.85a27ca2.chunk.js",
+    "static/media/picture_two_third_article.jpeg": "/Project_for_construction/static/media/picture_two_third_article.2b70d82ccd1d6dbfa8aa.jpeg",
+    "static/media/hight-architecture_second-article.jpg": "/Project_for_construction/static/media/hight-architecture_second-article.5b90efbaaad76c7b1b5f.jpg",
+    "static/media/apartment_one_article.jpg": "/Project_for_construction/static/media/apartment_one_article.837fb730d63b70f7eda9.jpg",
+    "static/media/block_of_flat_secont_article.jpeg": "/Project_for_construction/static/media/block_of_flat_secont_article.a08138d7675eb54a8576.jpeg",
+    "static/media/picture_one_fourth_article.jpg": "/Project_for_construction/static/media/picture_one_fourth_article.a85923e3fdb98459eeee.jpg",
+    "static/media/picture_one_third_article.jpeg": "/Project_for_construction/static/media/picture_one_third_article.f8cef1177e1951cee0ba.jpeg",
+    "static/media/picture_thre_third_article.jpeg": "/Project_for_construction/static/media/picture_thre_third_article.a0e0f780cedc228feae2.jpeg",
+    "static/media/architecture_third_article.jpeg": "/Project_for_construction/static/media/architecture_third_article.f5d8834c21dcc135dc08.jpeg",
+    "static/media/modern_house_second_article.jpg": "/Project_for_construction/static/media/modern_house_second_article.89faa1d0f22292d2a39d.jpg",
+    "static/media/bisiness_center.jpg": "/Project_for_construction/static/media/bisiness_center.5724aa1e8060224ea0ae.jpg",
+    "static/media/arhitecture_one_article.jpg": "/Project_for_construction/static/media/arhitecture_one_article.ccdd90490c0a764fe4aa.jpg",
+    "index.html": "/Project_for_construction/index.html",
+    "main.bad4c244.js.map": "/Project_for_construction/static/js/main.bad4c244.js.map",
+    "787.85a27ca2.chunk.js.map": "/Project_for_construction/static/js/787.85a27ca2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06a14047.css",
+    "static/js/main.bad4c244.js"
+  ]
+}
