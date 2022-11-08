@@ -40,7 +40,15 @@ export const StyledFooterBoxTitle = styled.h2`
 `;
 
 export const StyledFooterBoxLink = styled.a`
+  display: block;
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 10px;
 
+  @media (min-width: 800px){
+    :hover {
+      color: ${colors.lightblue};
+      cursor: pointer;
+    }
+  }
 `;

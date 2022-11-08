@@ -81,7 +81,20 @@ export const StyledThirdArticleContentBoxLink = styled.a`
   font-size: 16px;
   color: ${colors.lightblue};
   margin-bottom: 67px;
+
+  @media (min-width: 800px){
+    :hover{
+      color: ${colors.black};
+      cursor: pointer;
+    }
+   }
 `;
+
+export const StyledThirdArticleContentBoxWrapper = styled.div`
+     width: 90%;
+     heigth: auto;
+`;
+
 
 export const StyledThirdArticleContentBoxImageBox = styled.div`
   width: 85%;

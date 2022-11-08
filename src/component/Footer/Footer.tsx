@@ -14,9 +14,12 @@ const Footer = () => {
             <StyledFooterBoxDiv>
               <StyledFooterBoxTitle>Headline</StyledFooterBoxTitle>
               <StyledFooterBoxLink>Sample footer text</StyledFooterBoxLink>
+              <StyledFooterBoxLink>Sample footer text</StyledFooterBoxLink>
             </StyledFooterBoxDiv>
             <StyledFooterBoxDiv>
               <StyledFooterBoxTitle>Headline</StyledFooterBoxTitle>
+              <StyledFooterBoxLink>Sample footer text</StyledFooterBoxLink>
+              <StyledFooterBoxLink>Sample footer text</StyledFooterBoxLink>
               <StyledFooterBoxLink>Sample footer text</StyledFooterBoxLink>
             </StyledFooterBoxDiv>
           </StyledFooterBox> 

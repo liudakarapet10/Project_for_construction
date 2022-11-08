@@ -50,7 +50,11 @@ export const StyledFourthArticleParBox = styled.div`
   position: absolute;
   left: 0;
   right: 0;
-  top: 492px;
+  top: 505px;
+
+  @media (min-width: 600px){
+    top: 1088px;
+  }
 
   @media (min-width: 800px){
     max-width: 560px;
@@ -93,6 +97,10 @@ export const StyledFourthArticleIconDiv = styled.div`
     
     @media (min-width: 800px){
       width: 360px;
+
+      :hover{
+        background-color: ${colors.gray};
+      }
     }
 
     @media (min-width: 1080px){

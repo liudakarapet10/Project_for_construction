@@ -23,8 +23,8 @@ const FirstArticle = () => {
             </StyledFirstArticleContentBox>
             <StyledFirstArticleBlueBoxSmall></StyledFirstArticleBlueBoxSmall>
             <StyledFirstArticleContentBoxSecond>
-                <StyledFirstArticleContentBoxSecondPar className="content_box_second_par">Rehabilitation Institute of Chicago’s Shirley Ryan AbilityLab, First-Ever “Translational” Research Hospital, Opens Doors</StyledFirstArticleContentBoxSecondPar>
-                <StyledFirstArticleContentBoxSecondLink className="content_box_second_link">continue reading</StyledFirstArticleContentBoxSecondLink> 
+                <StyledFirstArticleContentBoxSecondPar>Rehabilitation Institute of Chicago’s Shirley Ryan AbilityLab, First-Ever “Translational” Research Hospital, Opens Doors</StyledFirstArticleContentBoxSecondPar>
+                <StyledFirstArticleContentBoxSecondLink>continue reading</StyledFirstArticleContentBoxSecondLink> 
             </StyledFirstArticleContentBoxSecond>
             <StyledFirstArticleImageBusinessCenterBox>
               <StyledFirstArticleImage src={require('../../img/bisiness_center.jpg')} alt="architecture"/> 

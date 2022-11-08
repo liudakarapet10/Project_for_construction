@@ -75,13 +75,20 @@ export const StyledFirstArticleContentBox = styled.div`
   position: absolute;
   left: 0; 
   right: 0; 
-  bottom: -50%;
+  bottom: -20%;
 
   .content_box_arrow{
     width: 46px;
     height: 46px;
     margin-left: 5px;
     margin-bottom: 30px;
+  }
+
+  @media (min-width: 800px){
+    .content_box_arrow:hover{
+      color: ${colors.lightblue};
+      cursor: pointer;
+    }
   }
 
   @media (min-width: 800px){
@@ -113,7 +120,7 @@ export const StyledFirstArticleContentBoxPar = styled.p`
 export const StyledFirstArticleBlueBoxSmall = styled.div`
   width: 80%;
   max-width: 590px;
-  height: 434px; 
+  height: 534px; 
   margin: 0 auto;
   background-color: ${colors.lightblue}; 
 
@@ -125,7 +132,6 @@ export const StyledFirstArticleBlueBoxSmall = styled.div`
 export const StyledFirstArticleContentBoxSecond = styled.div`
   width: 90%;
   max-width: 515px;
-  max-height: 474px;
   height: auto; 
   margin: 0 auto;
   box-shadow: 1px 1px 18px 8px rgb(0 0 0 / 0.2);
@@ -133,6 +139,7 @@ export const StyledFirstArticleContentBoxSecond = styled.div`
 
   @media (min-width: 800px) {
     width: 70%;
+    max-height: 474px;
     margin-top: -465px;
     margin-left: -5%;
     position: absolute;
@@ -156,6 +163,16 @@ export const StyledFirstArticleContentBoxSecondLink = styled.a`
   color: #9BCDFC;
   border-bottom: 2px solid #9BCDFC;
   padding-bottom: 4px;
+
+   @media (min-width: 800px){
+    :hover{
+      color: ${colors.black};
+      border-color: ${colors.black};
+      cursor: pointer;
+    }
+   }
+    
+  
 `;
 
 export const StyledFirstArticleImageBusinessCenterBox = styled.div`
@@ -195,7 +212,7 @@ export const StyledFirstArticleContentBoxSpaces = styled.div`
   margin-top: 132px;
 
   @media (min-width: 800px) {
-    width: 50%;
+    width: 45%;
     max-width: 360px;
     margin-top: 110px;
   }
@@ -213,9 +230,11 @@ export const StyledFirstArticleContentBoxSpacesSpan = styled.span`
 `;
 
 export const StyledFirstArticleContentBoxSpacesPar = styled.p`
+  display: inline-block;
+  margin-right: 20px;
   margin-top: -18px;
   margin-bottom: 43px;
-  font-size: 16px;
+  font-size: 24px;
 `;
 
 export const StyledFirstArticleContentBoxSpacesButton = styled.button`
@@ -226,4 +245,11 @@ export const StyledFirstArticleContentBoxSpacesButton = styled.button`
   font-size: 16px;
   letter-spacing: 1.5px;
   margin-bottom: 232px;
+
+  @media (min-width: 800px){
+    :hover{
+      border-color: ${colors.black};
+      cursor: pointer;
+    }
+   }
 `;

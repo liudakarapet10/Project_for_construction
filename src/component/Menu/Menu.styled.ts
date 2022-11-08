@@ -8,7 +8,7 @@ export const StyledMenu = styled.nav<{ open: boolean }>`
   width: 25vw;
   position: fixed;
   background-color: ${colors.black};
-  z-index: 1;
+  z-index: 3;
 
   display: flex;
   flex-direction: column;
@@ -17,8 +17,12 @@ export const StyledMenu = styled.nav<{ open: boolean }>`
   transition: transform 0.3s ease-in-out;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
 
-  @media (max-width: 600px) {
-    width: 100%;
+  @media (min-width: 600px) {
+    width: 80%;
+  }
+
+  @media (min-width: 1080px) {
+    width: 30%;
   }
 `;
 
@@ -30,5 +34,13 @@ export const StyledLink = styled.a`
 
   :hover {
     color: ${colors.lightblue};
+  }
+
+  @media (min-width: 600px) {
+    font-size: 2.5rem;
+  }
+
+  @media (min-width: 600px) {
+    font-size: 1.5rem;
   }
 `;

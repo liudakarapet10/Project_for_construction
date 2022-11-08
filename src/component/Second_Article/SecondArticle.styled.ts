@@ -129,13 +129,27 @@ export const StyledSecondArticleContentBoxButton = styled.button`
   background-color: white;
   font-size: 16px;
   letter-spacing: 1.5px;
+
+  @media (min-width: 800px){
+    :hover{
+      color: ${colors.black};
+      border-color: ${colors.black};
+      cursor: pointer;
+    }
+   }
 `;
 
 export const StyledSecondArticleImageArchitectureBox = styled.div`
-  width: 80%;
+  width: 92%;
   height: auto;
-  margin-left: -8px;
+  margin-left: -15px;
   margin-top: -20px;
+
+  @media (min-width: 600px) {
+    width: 85%;
+    margin-left: -18px;
+  }
+
 
   @media (min-width: 800px) {
     width: 100%;
